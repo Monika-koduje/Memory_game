@@ -1,0 +1,33 @@
+.man {
+  background-image: url("./IMG/man.png");
+}
+
+.hacker {
+  background-image: url("./IMG/hacker.jpg");
+}
+
+.binary_code {
+  background-image: url("./IMG/binary-code.jpg");
+}
+
+.developer {
+  background-image: url("./IMG/developer.png");
+}
+
+.web_development {
+  background-image: url("./IMG/web-development.png");
+}
+
+.bgc_flipped_card {
+  background-image: url("./IMG/word.jpg");
+}
+
+.bgc_hits_cards {
+  content: "";
+}
+
+.startBtn {
+  color: #fff;
+  box-shadow: 0 0 0 3px #4cd137;
+  border-radius: 2px;
+}

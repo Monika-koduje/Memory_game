@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@300;400&display=swap");
+/* font-family: 'Roboto', sans-serif;
+   font-family: 'Lato', sans-serif; */
+   
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcdde1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+header {
+  height: 10vh;
+}
+
+header button {
+  position: absolute;
+  padding: 10px;
+  outline: none;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  color: #dcdde1;
+  border: 2px solid;
+  transition: 0.2s linear;
+}
+
+header button.start {
+  background-color: #4cd137;
+  top: 4%;
+  left: 24%;
+}
+
+header a button.reset_cards {
+  background-color: #e84118;
+  top: 4%;
+  left: 15%;
+}
+
+header a button.reset_cards:hover {
+  color: #fff;
+  box-shadow: 0 0 0 3px #e84118;
+  border-radius: 2px;
+}
+
+header button.start i.fa-clock,
+header a button.reset_cards i.fa-power-off {
+  font-size: 1.2em;
+  padding-right: 7px;
+}
+
+header a {
+  display: block;
+  text-decoration: none;
+}
+
+header nav {
+  height: 15vh;
+}
+
+header nav h1 {
+  font-size: 2.5em;
+  line-height: 2.3;
+  text-align: center;
+}
+
+header nav p {
+  position: absolute;
+  top: 7%;
+  left: 68%;
+  font-size: 0.8em;
+}
+
+header nav p.counter {
+  top: 7%;
+  left: 72%;
+}
+
+header nav p + p + p {
+  top: 7%;
+  left: 75%;
+}
+
+header nav p.win_counter {
+  top: 7%;
+  left: 80%;
+}
+
+header nav p + p + p + p {
+  top: 90%;
+  left: 19%;
+}
+
+header nav p#time_counter {
+  top: 90%;
+  left: 23%;
+}
+
+header nav p.time {
+  top: 90%;
+  left: 26%;
+}
+
+header button,
+header nav h1 span {
+  text-transform: uppercase;
+  line-height: 10%;
+}
+
+main {
+  height: 80vh;
+}
+
+main section.main_game_area {
+  position: absolute;
+  width: 150vh;
+  height: 70vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #7f8fa6;
+  border: 3px solid #333;
+  box-shadow: 3px 2px 5px #444;
+}
+
+main section.main_game_area p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 2;
+  text-align: center;
+  color: #fff;
+  word-spacing: 2.5px;
+}
+
+main section.main_game_area section.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 42vw;
+  height: 48vh;
+  margin: 40px auto;
+}
+
+main section.main_game_area section.cards div {
+  width: 16vh;
+  height: 22vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 4px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+footer {
+  height: 5vh;
+}
+
+footer p {
+  margin-right: 15px;
+  margin-top: 30px;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+@media only screen and (orientation: portrait) {
+  main section.main_game_area section.cards div {
+    flex-basis: 40%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  main section.main_game_area section.cards {
+    width: 59vw;
+    height: 52vh;
+    margin: 50px auto;
+  }
+}
