@@ -172,9 +172,170 @@ footer p {
   text-align: right;
 }
 
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 569px) {
   main section.main_game_area section.cards div {
-    flex-basis: 40%;
+    flex-basis: 22%;
+  }
+
+  main section.main_game_area section.cards div {
+    height: 14vh;
+  }
+
+  main section.main_game_area section.cards {
+    width: 67vw;
+    height: 52vh;
+  }
+
+  main section.main_game_area section.cards {
+    margin: 10px auto;
+  }
+
+  span.start_txt {
+    display: none;
+  }
+
+  span.reset_txt {
+    display: none;
+  }
+
+  main section.main_game_area {
+    width: 50vh;
+  }
+
+  main section.main_game_area p {
+    font-size: 0.8em;
+  }
+
+  header a button.reset_cards {
+    left: 5%;
+  }
+
+  header button.start {
+    left: 20%;
+  }
+
+  header button.start i.fa-clock,
+  header a button.reset_cards i.fa-power-off {
+    padding-right: 0;
+  }
+
+  header nav h1 {
+    font-size: 1.8em;
+    margin-left: 90px;
+  }
+
+  header nav p {
+    top: 11%;
+    left: 37%;
+  }
+
+  header nav p + p + p {
+    top: 11%;
+    left: 58%;
+  }
+
+  header nav p.win_counter {
+    top: 11%;
+    left: 77%;
+  }
+
+  header nav p.counter {
+    top: 11%;
+    left: 50%;
+  }
+
+  header nav p#time_counter {
+    left: 30%;
+  }
+
+  header nav p.time {
+    left: 37%;
+  }
+
+  footer p {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 570px) {
+  main section.main_game_area section.cards div {
+    flex-basis: 17%;
+  }
+
+  span.start_txt {
+    display: none;
+  }
+
+  span.reset_txt {
+    display: none;
+  }
+
+  main section.main_game_area p {
+    font-size: 0.8em;
+  }
+
+  main section.main_game_area section.cards {
+    width: 25vw;
+    height: 77vh;
+  }
+
+  header button.start {
+    top: 2%;
+    left: 17%;
+  }
+
+  header a button.reset_cards {
+    top: 2%;
+    left: 8%;
+  }
+
+  header button.start i.fa-clock,
+  header a button.reset_cards i.fa-power-off {
+    padding-right: 0;
+  }
+
+  header nav h1 {
+    font-size: 2em;
+    line-height: 1.9;
+    text-align: center;
+  }
+
+  header nav p + p + p {
+    left: 83%;
+  }
+
+  header nav p.win_counter {
+    left: 94%;
+  }
+
+  header nav p {
+    left: 70%;
+  }
+
+  header nav p.counter {
+    left: 78%;
+  }
+
+  header nav p + p + p + p {
+    left: 16%;
+  }
+
+  header nav p.time {
+    left: 28%;
+  }
+
+  footer p {
+    margin-top: 21px;
+    font-size: 0.5rem;
+  }
+
+  main section.main_game_area section.cards {
+    width: 50vw;
+    height: 47vh;
+  }
+
+  main section.main_game_area section.cards {
+    margin: 10px auto;
   }
 }
 
@@ -185,3 +346,4 @@ footer p {
     margin: 50px auto;
   }
 }
+
