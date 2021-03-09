@@ -257,7 +257,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 570px and max-width: 800px) {
+@media only screen and (min-width: 570px) and (max-width: 800px) {
   main section.main_game_area section.cards div {
     flex-basis: 17%;
   }
