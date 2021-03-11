@@ -14,6 +14,8 @@ const cardsImage = [
 let memoryCards = document.querySelectorAll("div");
 memoryCards = [...memoryCards];
 
+const timerStart = new Date().getTime();
+
 const timeCounter = "time_counter";
 const timeSeconds = [];
 let startTimeSeconds = 0;
@@ -102,11 +104,19 @@ const click = function () {
           (image) => !image.classList.contains("bgc_hits_cards")
         );
         if (gameHits == memoryHits) {
+          const timerStop = new Date().getTime();
+          const gameOver = (timerStop - timerStart) / 1000;
           const timer = startTimeSeconds;
           setTimeout(function () {
-            alert(
-              `Gra skończona - Gratulacje!!! - Wygrałeś - Czas gry: ${timer} s `
-            );
+            if (startTimeSeconds > 0) {
+              alert(
+                `Gra skończona - Gratulacje!!! - Wygrałeś - Czas gry: ${timer} s `
+              );
+            } else {
+              alert(
+                `Gra skończona - Gratulacje!!! - Wygrałeś - Czas gry: ${gameOver} s `
+              );
+            }
             console.log("Game over - Congratulations!!! - Winner");
 
             location.reload();
