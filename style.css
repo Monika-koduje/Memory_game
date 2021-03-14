@@ -173,40 +173,20 @@ footer p {
 }
 
 @media only screen and (max-width: 569px) {
-  main section.main_game_area section.cards {
-    width: 67vw;
-    height: 52vh;
-    margin: 10px auto;
+  header button.start {
+    left: 20%;
   }
 
-  main section.main_game_area section.cards div {
-    flex-basis: 22%;
-    height: 14vh;
-    border: 3px solid #fff;
-  }
-
-  span.start_txt {
+  header button span.start_txt {
     display: none;
-  }
-
-  span.reset_txt {
-    display: none;
-  }
-
-  main section.main_game_area {
-    width: 50vh;
-  }
-
-  main section.main_game_area p {
-    font-size: 0.8em;
   }
 
   header a button.reset_cards {
     left: 5%;
   }
 
-  header button.start {
-    left: 20%;
+  header a button span.reset_txt {
+    display: none;
   }
 
   header button.start i.fa-clock,
@@ -247,18 +227,8 @@ footer p {
     left: 37%;
   }
 
-  footer p {
-    font-size: 0.5rem;
-  }
-}
-
-@media only screen and (min-width: 570px) and (max-width: 800px) {
-  span.start_txt {
-    display: none;
-  }
-
-  span.reset_txt {
-    display: none;
+  main section.main_game_area {
+    width: 50vh;
   }
 
   main section.main_game_area p {
@@ -266,23 +236,39 @@ footer p {
   }
 
   main section.main_game_area section.cards {
-    width: 50vw;
-    height: 47vh;
+    width: 67vw;
+    height: 52vh;
     margin: 10px auto;
   }
 
   main section.main_game_area section.cards div {
-    border: 2px solid #fff;
+    flex-basis: 22%;
+    height: 14vh;
+    border: 3px solid #fff;
   }
 
+  footer p {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 800px) {
   header button.start {
     top: 2%;
     left: 17%;
   }
 
+  header button span.start_txt {
+    display: none;
+  }
+
   header a button.reset_cards {
     top: 2%;
     left: 8%;
+  }
+
+  header a button span.reset_txt {
+    display: none;
   }
 
   header button.start i.fa-clock,
@@ -318,6 +304,20 @@ footer p {
 
   header nav p.time {
     left: 28%;
+  }
+
+  main section.main_game_area p {
+    font-size: 0.8em;
+  }
+
+  main section.main_game_area section.cards {
+    width: 50vw;
+    height: 47vh;
+    margin: 10px auto;
+  }
+
+  main section.main_game_area section.cards div {
+    border: 2px solid #fff;
   }
 
   footer p {
