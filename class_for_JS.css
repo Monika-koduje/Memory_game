@@ -18,8 +18,13 @@
   background-image: url("./IMG/web-development.png");
 }
 
+.presentation {
+  background-image: url("./IMG/presentation.png");
+}
+
 .bgc_flipped_card {
   background-image: url("./IMG/word.jpg");
+  transform: rotateY(180deg);
 }
 
 .bgc_hits_cards {

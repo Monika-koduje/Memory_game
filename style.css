@@ -149,6 +149,7 @@ main section.main_game_area section.cards {
 }
 
 main section.main_game_area section.cards div {
+  flex-basis: 15%;
   width: 16vh;
   height: 22vh;
   background-repeat: no-repeat;
@@ -172,21 +173,16 @@ footer p {
 }
 
 @media only screen and (max-width: 569px) {
-  main section.main_game_area section.cards div {
-    flex-basis: 22%;
-  }
-
-  main section.main_game_area section.cards div {
-    height: 14vh;
-  }
-
   main section.main_game_area section.cards {
     width: 67vw;
     height: 52vh;
+    margin: 10px auto;
   }
 
-  main section.main_game_area section.cards {
-    margin: 10px auto;
+  main section.main_game_area section.cards div {
+    flex-basis: 22%;
+    height: 14vh;
+    border: 3px solid #fff;
   }
 
   span.start_txt {
@@ -257,10 +253,6 @@ footer p {
 }
 
 @media only screen and (min-width: 570px) and (max-width: 800px) {
-  main section.main_game_area section.cards div {
-    flex-basis: 17%;
-  }
-
   span.start_txt {
     display: none;
   }
@@ -274,8 +266,13 @@ footer p {
   }
 
   main section.main_game_area section.cards {
-    width: 25vw;
-    height: 77vh;
+    width: 50vw;
+    height: 47vh;
+    margin: 10px auto;
+  }
+
+  main section.main_game_area section.cards div {
+    border: 2px solid #fff;
   }
 
   header button.start {
@@ -327,18 +324,9 @@ footer p {
     margin-top: 21px;
     font-size: 0.5rem;
   }
-
-  main section.main_game_area section.cards {
-    width: 50vw;
-    height: 47vh;
-  }
-
-  main section.main_game_area section.cards {
-    margin: 10px auto;
-  }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
   main section.main_game_area section.cards {
     width: 59vw;
     height: 52vh;

@@ -9,6 +9,8 @@ const cardsImage = [
   "developer",
   "web_development",
   "web_development",
+  "presentation",
+  "presentation",
 ];
 
 let memoryCards = document.querySelectorAll("div");
@@ -110,11 +112,11 @@ const click = function () {
           setTimeout(function () {
             if (startTimeSeconds > 0) {
               alert(
-                `Gra skończona - Gratulacje!!! - Wygrałeś - Czas gry: ${timer} s `
+                `Gra skończona - Gratulacje!!! - Zwycięstwo - Czas gry: ${timer} s `
               );
             } else {
               alert(
-                `Gra skończona - Gratulacje!!! - Wygrałeś - Czas gry: ${gameOver} s `
+                `Gra skończona - Gratulacje!!! - Zwycięstwo - Czas gry: ${gameOver} s `
               );
             }
             console.log("Game over - Congratulations!!! - Winner");
