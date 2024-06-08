@@ -217,6 +217,7 @@ footer p {
   header nav p.counter {
     top: 11%;
     left: 50%;
+    font-weight: bold;
   }
 
   header nav p#time_counter {
