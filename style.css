@@ -327,6 +327,15 @@ footer p {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1400px) {
+  body {
+	background-color: #e3f4d5;
+  }
+  main section.main_game_area {
+	background-color: #4cd137;
+  }
+  header nav p.win_counter {
+	left: 81%;
+  }
   main section.main_game_area section.cards {
 	width: 86vw;
 	height: 50vh;
