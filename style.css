@@ -335,8 +335,9 @@ footer p {
 
 @media screen and (min-width: 800px) {
   main section.main_game_area section.cards {
-    width: 93vw;
-    height: 48vh;
-    margin: 40px auto;
+	width: 86vw;
+	height: 50vh;
+	margin: 33px auto;
+}
   }
 }
