@@ -326,18 +326,18 @@ footer p {
   }
 }
 
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+  main section.main_game_area section.cards {
+	width: 86vw;
+	height: 50vh;
+	margin: 33px auto;
+  }
+
 @media screen and (min-width: 1400px) {
   main section.main_game_area section.cards {
     width: 59vw;
     height: 52vh;
     margin: 50px auto;
   }
-
-@media screen and (min-width: 800px) {
-  main section.main_game_area section.cards {
-	width: 86vw;
-	height: 50vh;
-	margin: 33px auto;
-}
   
 }
