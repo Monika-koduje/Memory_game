@@ -344,6 +344,9 @@ footer p {
   body {
 	background-color: #e3f4d5;
   }
+  header button.pokemon {
+	margin: 5vh 0vh 0vh 143vh;
+  }
   main section.main_game_area {
 	background-color: #51a867;
   }
