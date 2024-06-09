@@ -12,3 +12,4 @@ Sources:
 * https://kit.fontawesome.com/
 * https://flatuicolors.com/palette/gb
 * https://pokeapi.co/
+* https://www.toptal.com/designers/htmlarrows/symbols/
