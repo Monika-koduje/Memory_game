@@ -11,3 +11,4 @@ Sources:
 * https://fonts.google.com/
 * https://kit.fontawesome.com/
 * https://flatuicolors.com/palette/gb
+* https://pokeapi.co/

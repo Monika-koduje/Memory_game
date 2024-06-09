@@ -59,6 +59,18 @@ header a {
   text-decoration: none;
 }
 
+header button.pokemon {
+	padding: 2vh;
+	color: white;
+	margin: 16vh 0vh 0vh 8vh;
+	background-color: #f5e14b;
+}
+
+header button.pokemon:hover {
+	background-color: #f5fb82;
+  color:#dabd03;
+}
+
 header nav {
   height: 15vh;
 }
@@ -99,6 +111,7 @@ header nav p + p + p + p {
 header nav p#time_counter {
   top: 90%;
   left: 23%;
+  font-weight: bolder;
 }
 
 header nav p.time {
@@ -342,6 +355,7 @@ footer p {
 	height: 50vh;
 	margin: 33px auto;
   }
+}
 
 @media screen and (min-width: 1400px) {
   main section.main_game_area section.cards {
