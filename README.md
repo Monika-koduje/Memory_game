@@ -1,10 +1,12 @@
 # Memory_game
 
-## Technologies
-Project is created with:
-* CSS3
-* HTML5
-* JavaScript
+## Live Demo:
+[Try the app here](https://monika-koduje.github.io/Memory_game/)
+
+## Technology Stuck:
+  CSS3
+  HTML5
+  JavaScript
 
 Sources: 
 * https://pixabay.com/pl/
