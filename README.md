@@ -4,9 +4,9 @@
 [Try the app here](https://monika-koduje.github.io/Memory_game/)
 
 ## Technology Stuck:
-  CSS3
-  HTML5
-  JavaScript
+    CSS3
+    HTML5
+    JavaScript
 
 Sources: 
 * https://pixabay.com/pl/
