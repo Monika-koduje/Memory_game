@@ -3,7 +3,7 @@
 ## Live Demo:
 [Try the app here](https://monika-koduje.github.io/Memory_game/)
 
-## Technology Stuck:
+## Technology Stack:
     CSS3
     HTML5
     JavaScript
